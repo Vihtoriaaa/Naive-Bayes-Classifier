@@ -30,7 +30,7 @@ if __name__ == '__main__':
     if user_input == '1':
         classifier.fit(train_X, train_y)
         classifier.predict_prob(test_X['Message'][0], test_y['Category'][0])
-        print("model score: ", classifier.score(test_X, test_y) * 100, "%")
+        print("model score: ", round(classifier.score(test_X, test_y) * 100, 3), "%")
     if user_input == '2':
         classifier.fit(test_X, test_y)
         classifier.predict_prob(test_X['Message'][0], test_y['Category'][0])
