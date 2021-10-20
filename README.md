@@ -1,4 +1,4 @@
-# Naive-Bayes Spam Classificator
+# Naive-Bayes Spam Classifier
 
 Module is created to build a spam filter using Python and the multinomial Naive Bayes algorithm. Main goal is to code a spam filter from scratch that classifies messages with an accuracy greater than 90%.
 
